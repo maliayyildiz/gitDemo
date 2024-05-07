@@ -4,4 +4,6 @@ public class Class04 {
 
     // merhaba
 
+    // Merhaba Dünya
+
 }
