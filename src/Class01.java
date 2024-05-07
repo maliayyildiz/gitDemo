@@ -54,7 +54,7 @@ public class Class01 {
         }
 
         System.out.println("Girdiğiniz ayın rakamsal değeri: " + rakamDegeri);
-
+        System.out.println("1234");
     }
 
 }
