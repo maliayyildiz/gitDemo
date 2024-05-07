@@ -20,7 +20,7 @@ public class Class04 {
         System.out.println("Adı: " + ad);
         System.out.println("Soyadı: " + soyad);
         System.out.println("Memleketi: " + memleket.toUpperCase());
-
+        System.out.println("000000000000000000000000000000000");
         scanner.close();
 
 
