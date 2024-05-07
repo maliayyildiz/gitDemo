@@ -10,6 +10,7 @@ public class Class04 {
         String lastName=scanner.next();
         String city=scanner.next().toUpperCase();
         System.out.println(name+" "+lastName+" ; "+city);
+        System.out.println();
 
     }
 
