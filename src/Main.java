@@ -9,13 +9,15 @@ public class Main {
         int a = 5;
         int b = 3;
         int c=0;
+        int d = 8;
 
         c=b;
         b=a;
         a=c;
         System.out.println(a);
         System.out.println(b);
-
+        System.out.println(a+b);
+        System.out.println(d);
 
 
     }
