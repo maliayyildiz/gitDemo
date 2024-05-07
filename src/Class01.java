@@ -20,6 +20,9 @@ import java.time.format.DateTimeFormatter;
 
             System.out.println("Bugünün ayı: " + ayIsmi);
             System.out.println("Ayın sayısal değeri: " + aySayisalFormatli);
+            System.out.println("............................");
+
+
         }
     }
 
