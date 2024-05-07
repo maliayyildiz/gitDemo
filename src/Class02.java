@@ -9,6 +9,12 @@ public class Class02 {
         //orn:  a= 5 b=3
         //sonc a=3 b =5
 
+        int a= 5;
+        int b=3;
+
+
+
+
     }
 
 }
