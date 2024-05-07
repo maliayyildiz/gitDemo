@@ -1,60 +1,54 @@
 import java.util.Scanner;
 
 public class Class01 {
+    //hangi ayda oldugumuzu sor ve o yin rakamsal degerini yazdir
+    //or Ocak - > 01
     public static void main(String[] args) {
-        //hangi ayda oldugumuzu sor ve o yin rakamsal degerini yazdir
-        //or Ocak - > 01
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Hangi aydayız? : ");
-        String ay = scanner.nextLine();
+        System.out.println("Lutfen bulundugunuz ayi giriniz");
+        String month = scanner.nextLine().toLowerCase();
 
-        ay = ay.toLowerCase();
-
-        int rakamDegeri = 0;
-
-        switch (ay) {
+        switch (month) {
             case "ocak":
-                rakamDegeri = 1;
+                System.out.println("01");
                 break;
-            case "şubat":
-                rakamDegeri = 2;
+            case "subat":
+                System.out.println("02");
                 break;
             case "mart":
-                rakamDegeri = 3;
+                System.out.println("03");
                 break;
             case "nisan":
-                rakamDegeri = 4;
+                System.out.println("04");
                 break;
             case "mayıs":
-                rakamDegeri = 5;
+                System.out.println("05");
                 break;
             case "haziran":
-                rakamDegeri = 6;
+                System.out.println("06");
                 break;
             case "temmuz":
-                rakamDegeri = 7;
+                System.out.println("07");
                 break;
-            case "ağustos":
-                rakamDegeri = 8;
+            case "agustos":
+                System.out.println("08");
                 break;
-            case "eylül":
-                rakamDegeri = 9;
+            case "eylul":
+                System.out.println("09");
                 break;
             case "ekim":
-                rakamDegeri = 10;
+                System.out.println("10");
                 break;
-            case "kasım":
-                rakamDegeri = 11;
+            case "kasim":
+                System.out.println("11");
                 break;
-            case "aralık":
-                rakamDegeri = 12;
+            case "aralik":
+                System.out.println("12");
                 break;
             default:
-                System.out.println("Geçersiz ay ismi girdiniz!");
+                System.out.println("Gecersiz bir ay girdiniz");
+
+                System.out.println("kdbksd");
         }
-
-        System.out.println("Girdiğiniz ayın rakamsal değeri: " + rakamDegeri);
-        System.out.println("1234");
     }
-
 }
