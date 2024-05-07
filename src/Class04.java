@@ -3,7 +3,10 @@ public class Class04 {
     //memeleket buyuk harfler yazilsin.
 
     // merhaba
-
+    public static void main(String[] args) {
+        System.out.println("huma");
+        System.out.println();
+    }
     // Merhaba Dünya
 
 }
