@@ -5,6 +5,7 @@ public class Class04 {
     // merhaba
     public static void main(String[] args) {
         System.out.println("huma");
+        System.out.println();
     }
     // Merhaba Dünya
 
