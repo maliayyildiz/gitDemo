@@ -5,6 +5,7 @@ public class Main {
         //sadece a ve b degiskenini kullanarak degerlerin yerlerinidegistir
         //orn:  a= 5 b=3
         //sonc a=3 b =5
+
         int a = 5;
         int b = 3;
         int c=0;
@@ -12,7 +13,8 @@ public class Main {
         c=b;
         b=a;
         a=c;
-
+        System.out.println(a);
+        System.out.println(b);
 
 
 
