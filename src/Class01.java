@@ -4,11 +4,11 @@ public class Class01 {
     //hangi ayda oldugumuzu sor ve o yin rakamsal degerini yazdir
     //or Ocak - > 01
     public static void main(String[] args) {
-        Scanner scanner= new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Lutfen bulundugunuz ayi giriniz");
-        String month=scanner.nextLine().toLowerCase();
+        String month = scanner.nextLine().toLowerCase();
 
-        switch (month){
+        switch (month) {
             case "ocak":
                 System.out.println("01");
                 break;
