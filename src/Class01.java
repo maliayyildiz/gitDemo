@@ -47,6 +47,8 @@ public class Class01 {
                 break;
             default:
                 System.out.println("Gecersiz bir ay girdiniz");
+
+                System.out.println("kdbksd");
         }
     }
 }
