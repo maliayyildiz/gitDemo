@@ -11,7 +11,7 @@ public class Class02 {
 
         int a= 5;
         int b=3;
-
+        int toplam = a+b;
 
 
 
