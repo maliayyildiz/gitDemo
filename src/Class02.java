@@ -4,6 +4,9 @@ public class Class02 {
     //sonc a=3 b =5
 
 
+
+
+
     public static void main(String[] args) {
 
         //orn:  a= 5 b=3
@@ -16,5 +19,6 @@ public class Class02 {
 
 
     }
+
 
 }
